@@ -665,4 +665,39 @@ var pages =[
         }
     }
 ];
+ let link = <!--//link needs to be not the text but the property of the links. the number before the txt string"
 
+
+function displayTitle() {
+    document.getElementById(title-page).style.display="block";
+    document.getElementById(disclaimer).style.display="none";
+    document.getElementById(mainbody).style.display="none";
+    document.getElementById(credits).style.display="none";
+};
+
+function displayDisclaimer() {
+    document.getElementById(title-page).style.display="none";
+    document.getElementById(disclaimer).style.display="block";
+    document.getElementById(mainbody).style.display="none";
+    document.getElementById(credits).style.display="none";
+};
+
+function displayMain() {
+    document.getElementById(title-page).style.display="none";
+    document.getElementById(disclaimer).style.display="none";
+    document.getElementById(mainbody).style.display="block";
+    document.getElementById(credits).style.display="none";
+};
+
+function displayCredits() {
+    document.getElementById(title-page).style.display="none";
+    document.getElementById(disclaimer).style.display="none";
+    document.getElementById(mainbody).style.display="none";
+    document.getElementById(credits).style.display="block";
+};
+
+function checkLink() {
+    if( link ==1) {
+        document
+    }
+}
