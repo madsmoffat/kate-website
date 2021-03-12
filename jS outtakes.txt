@@ -663,3 +663,19 @@ var pages =[
         }
     }
 ];
+
+
+
+ <section class="main-background" id="main-background">
+            <div class="page" id="page">
+                <button class="credits-btn" id="credits-btn" type="button">
+                    Exit
+                </button>    
+                <div class="main-text" id="main-text">
+                    this is where the mian text will go.  
+                </div>
+                <div class="illustration" id="illustration">
+                    this is where the illustration will be. 
+                </div>
+            </div>
+        </section>
