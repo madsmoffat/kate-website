@@ -1,50 +1,109 @@
 body {
-    background-color: black;
-    
+    background-color: #9d0066;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .title-page {
 
 }
     .title-background {
-
+        background-color: #27001a
     }
     .title-text {
-
+        color: white;
+        
     }
         .disclaimer-btn-t {
-
+            background-color: #ff00A6;
+            color: #27001a
+           
         }
 
 .disclaimer {
 
 }
     .disclaimer-background {
-
+        background-color: #27001a
     }
     .disclaimer-text {
-
+        color: white;
+        
     }
         .disclaimer-links {
-
+           
+            color: #27001a
         }
             .title-btn-d {
-
+                background-color: #ff00A6;
             }
             .main-btn-d{
-
+                background-color: #ff00A6;
             }
             .credits-btn-d {
-
+                background-color: #ff00A6;
             }
 
 .main-body {
 
 }
     .main-background {
-
+        background-color:black;
+        margin: 25px;
+        position: relative;
+        
     }
         .page {
 
         }
+            .main-text {
+                
+
+            }
+                .main-links {
+                    color: #27001a;
+                }
+                    .credits-btn-m {
+                        background-color: #ff00A6;
+                    }
+                    .js-links {
+                        color: #27001a;
+                    }   
+            .illustration {
+                height: 100%;
+                width: 50%;
+                position: absolute;
+                margin-top: 20px;
+                margin-right: 10px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+            }            
         
+.credits {
+
+}
+    .credits-text {
+        color: white;
+    }
+        .kate-text {
+            background-color: #27001a;
+            color: white;
+        }
+        .mads-text {
+            background-color: #27001a;
+            color: white;
+        }
+        .sound-text {
+            background-color: #27001a;
+            color: white;
+        }
+        .credits-links {
+
+        }
+            .main-btn-c {
+                background-color: #ff00A6;
+                color: #27001a;
+            }
+            .title-btn-c {
+                background-color: #ff00A6;
+                color: #27001a;
+            }
