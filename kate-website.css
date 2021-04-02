@@ -1,109 +1,111 @@
-body {
-    background-color: #9d0066;
+* {
+    background-color: black;
+}
+  body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .title-page {
-
+    background-color: black;
+    color: ivory;
+    width: 100%;
+    height: 100%;
+    
 }
-    .title-background {
-        background-color: #27001a
-    }
-    .title-text {
-        color: white;
-        
-    }
-        .disclaimer-btn-t {
-            background-color: #ff00A6;
-            color: #27001a
-           
-        }
+.title-text {
+    color: ivory;
+}
+.disclaimer-btn-t {
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
+}
 
 .disclaimer {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.disclaimer-text {
+    color: ivory;
+    width: 100%;
+    height: 100%;
+}
+.disclaimer-links {
+    color:black;
+}
+.title-btn-d {
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
+}
+.main-btn-d{
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
+    }
+.credits-btn-d {
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
+    }
+
+.grid-container {
+    background-color:black;
+    display: grid;
+}
+.text-box{
+    background-color: black;
+    color: ivory;
+    justify-self: start;
+    height:fit-content;
+    width: 50%;
+}
+.illustration {
+}
+.my-image {
+    width: 50%;
+    height: 100%;
+}
+.main-links {
+    background-color: black;
+    width: 50%;
+    height: fit-content
 
 }
-    .disclaimer-background {
-        background-color: #27001a
-    }
-    .disclaimer-text {
-        color: white;
-        
-    }
-        .disclaimer-links {
-           
-            color: #27001a
-        }
-            .title-btn-d {
-                background-color: #ff00A6;
-            }
-            .main-btn-d{
-                background-color: #ff00A6;
-            }
-            .credits-btn-d {
-                background-color: #ff00A6;
-            }
-
-.main-body {
-
+.credits-btn-m {
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
 }
-    .main-background {
-        background-color:black;
-        margin: 25px;
-        position: relative;
-        
-    }
-        .page {
-
-        }
-            .main-text {
-                
-
-            }
-                .main-links {
-                    color: #27001a;
-                }
-                    .credits-btn-m {
-                        background-color: #ff00A6;
-                    }
-                    .js-links {
-                        color: #27001a;
-                    }   
-            .illustration {
-                height: 100%;
-                width: 50%;
-                position: absolute;
-                margin-top: 20px;
-                margin-right: 10px;
-                margin-bottom: 20px;
-                margin-left: 20px;
-            }            
+.js-links {
+}        
         
 .credits {
 
 }
-    .credits-text {
-        color: white;
-    }
-        .kate-text {
-            background-color: #27001a;
-            color: white;
-        }
-        .mads-text {
-            background-color: #27001a;
-            color: white;
-        }
-        .sound-text {
-            background-color: #27001a;
-            color: white;
-        }
-        .credits-links {
-
-        }
-            .main-btn-c {
-                background-color: #ff00A6;
-                color: #27001a;
-            }
-            .title-btn-c {
-                background-color: #ff00A6;
-                color: #27001a;
-            }
+.credits-text {
+    color: ivory;
+}
+.kate-text {
+    background-color:black;
+    color: ivory;
+}
+.mads-text {
+    background-color:black;
+    color: ivory;
+}
+.credits-links {
+    background-color: black;
+}
+.main-btn-c {
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
+}
+.title-btn-c {
+    color: #ff00A6;
+    background-color: transparent;
+    border-color: #ff00A6;
+}
