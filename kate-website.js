@@ -1,14 +1,14 @@
 var pages = [
     {
         text: "You find yourself at a gas station in a barren desert. You’re alone and you don’t know how you got here… Where were you before this? Is it morning or evening? You see a singular building, impossibly tall against the flat horizon. To your right is a forest. You’re intrigued but nervous. You can either go to the building or into the forest. Where do you choose to go?",
-        links: [{ index: 2, text: "Building" }, { index: 10, text: "Forset" }],
+        links: [{ index: 2, text: "Building" }, { index: 10, text: "Forest" }],
         src: "../kate-website/photos/1.png"
     },
     {
         text: "As you enter the building, you feel a sense of dread. Your stomach begins to turn over with anxiety. Something tells you that you need to do everything within your power to remain unseen by the people in charge of this place. There are two doors in front of you. One leads to the elevator, one to the stairs. Which door do you take?",
         links: [{ index: 6, text: "Elevator" }, { index: 3, text: "Stairs" }],
         src: "../kate-website/photos/2.png"
-    }, 
+    },
     {
         text: "The stairs seem to go on for miles. Your legs begin to ache as you wind upward into the building. You freeze as you hear two voices above you on the stairs, but they disappear as a door closes. You come to a landing. You can continue climbing towards the top or you can exit the stairs on this floor. Which do you choose?",
         links: [{ index: 4, text: "Landing" }, { index: 5, text: "Stairs" }],
@@ -241,7 +241,7 @@ var pages = [
     },
     {
         text: "You bike in circles, up and up though the concrete parking garage and onto the roof. A group of your friends are already here, racing and showing off to each other. Your friends embrace you; you haven’t seen each other in months. You feel ecstatic. The summer night is so full of life, and surrounded by people you love, you couldn’t be happier. A friend invites you to pay five bucks to participate in a race, winner takes all the money. You can sit with your friends at the parking garage or you can race. Which do you choose?",
-        links: [{ index: 55, text: "Sit" }, { index: 55, text: "Race" }],
+        links: [{ index: 52, text: "Sit" }, { index: 55, text: "Race" }],
         src: "../kate-website/photos/49.png"
     },
     {
@@ -369,9 +369,8 @@ let titleBtnc = document.getElementById("title-btn-c");
 let curPage = pages[0];
 let jslinks = document.getElementById("js-links");
 let textbox = document.getElementById("text-box");
-let illustration = document.getElementById("illustration");
-let buttonsNotMade=true;
-let image=document.getElementById("my-image");
+let buttonsNotMade = true;
+let image = document.getElementById("my-image");
 
 
 
@@ -380,6 +379,11 @@ let image=document.getElementById("my-image");
 
 
 function displayCredits() {
+    if (!buttonsNotMade) {
+        jslinks.childNodes[0].style.display = "none";
+        jslinks.childNodes[1].style.display = "none";
+    };
+
     document.getElementById("title-page").style.display = "none";
     document.getElementById("disclaimer").style.display = "none";
     document.getElementById("main-body").style.display = "none";
@@ -390,8 +394,8 @@ function displayCredits() {
 
 };
 
-function pageReset(){
-    curPage=pages[0];
+function pageReset() {
+    curPage = pages[0];
     displayMain(curPage);
 };
 
@@ -402,33 +406,53 @@ function displayMain(curPage) {
     document.getElementById("credits").style.display = "none";
 
     textbox.innerHTML = "<p>" + curPage.text + "</p>";
-    image.src=curPage.src;
+    image.src = curPage.src;
 
+    var delayInMilliseconds = 5000;
 
-    if (buttonsNotMade) {
+    setTimeout(function () {
+        if (buttonsNotMade) {
 
-        curPage.links.forEach(link => {
-            var button = document.createElement("button");
-            button.style.background = "none";
-            button.style.border="none";
-            button.style.color = "#ff00A6";
-            jslinks.append(button)
-        });
-        
-        buttonsNotMade=false;
-    }
+            curPage.links.forEach(link => {
+                var button = document.createElement("button");
+                button.style.background = "none";
+                button.style.borderColor = "#ff00A6";
+                button.style.color = "#ff00A6";
+                button.style.fontSize = "24px";
+                button.style.fontFamily = "Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif";
+                button.style.borderRadius = "5px";
+                button.style.margin = "10px";
+                button.style.boxShadow="none";
+                button.style.textTransform="uppercase";
+                jslinks.append(button);
+            });
+            jslinks.childNodes[0].style.float="left";
+            jslinks.childNodes[1].style.float="right";
+        }
+        else {
+            jslinks.childNodes[0].style.display = "block";
+            jslinks.childNodes[1].style.display = "block";
+        }
 
-    jslinks.childNodes[0].textContent=curPage.links[0].text;
-    jslinks.childNodes[1].textContent=curPage.links[1].text;
+        jslinks.childNodes[0].textContent = curPage.links[0].text;
+        jslinks.childNodes[1].textContent = curPage.links[1].text;
 
-    jslinks.childNodes[0].addEventListener("click", function () { getnextPage(curPage.links[0].index) });
-    jslinks.childNodes[1].addEventListener("click", function () { getnextPage(curPage.links[1].index) });
+        jslinks.childNodes[0].addEventListener("click", function () { getnextPage(curPage.links[0].index) });
+        jslinks.childNodes[1].addEventListener("click", function () { getnextPage(curPage.links[1].index) });
+
+        buttonsNotMade = false;
+    }, delayInMilliseconds);
+
     creditsBtnm.addEventListener("click", displayCredits);
+
 };
 
 
 function getnextPage(buttonClicked) {
     curPage = pages[buttonClicked - 1];
+
+    jslinks.childNodes[0].style.display = "none";
+    jslinks.childNodes[1].style.display = "none";
 
 
     displayMain(curPage);
@@ -441,9 +465,9 @@ function displayDisclaimer() {
     document.getElementById("main-body").style.display = "none";
     document.getElementById("credits").style.display = "none";
 
-    curPage=pages[0];
+    curPage = pages[0];
 
-    mainBtnd.addEventListener("click", displayMain(curPage));
+    mainBtnd.addEventListener("click", function () { displayMain(curPage) });
     titleBtnd.addEventListener("click", displayTitle);
     creditsBtnd.addEventListener("click", displayCredits);
 

@@ -1,9 +1,12 @@
 * {
     background-color: black;
+    box-sizing: border-box;
 }
   body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .title-page {
@@ -18,8 +21,17 @@
 }
 .disclaimer-btn-t {
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.disclaimer-btn-t:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
 }
 
 .disclaimer {
@@ -37,50 +49,103 @@
 }
 .title-btn-d {
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.title-btn-d:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
 }
 .main-btn-d{
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
-    }
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.main-btn-d:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
+}
 .credits-btn-d {
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
-    }
-
-.grid-container {
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.credits-btn-d:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
+}
+.main-body {
     background-color:black;
-    display: grid;
+   height:80%;
+   width:100%;
+   position: relative;
+   display: flex;
+
+}
+.text-links {
+    width: 68%;
+    height:100%;
+    float: left;
+    position: relative;
+    padding: 25px;
+    
 }
 .text-box{
     background-color: black;
     color: ivory;
-    justify-self: start;
-    height:fit-content;
-    width: 50%;
-}
-.illustration {
-}
-.my-image {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 85%;
+    text-align: center;
+    font-size: fill;
+    position: relative;
+    
 }
 .main-links {
     background-color: black;
-    width: 50%;
-    height: fit-content
-
+    width: 100%;
+    height: 15%;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
 }
 .credits-btn-m {
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
+    float: left;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.credits-btn-m:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
 }
 .js-links {
-}        
+    float: right;
+    position: relative;
+}
+.image-box {
+  height: 100%;
+  width: 100%;
+}
         
 .credits {
 
@@ -101,11 +166,29 @@
 }
 .main-btn-c {
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.main-btn-c:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
 }
 .title-btn-c {
     color: #ff00A6;
-    background-color: transparent;
+    background-color: none;
     border-color: #ff00A6;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.title-btn-c:hover {
+    text-shadow: 2px 2px 5px #ff00A6;
+    box-shadow: 0 0 8px #ff00A6; 
 }
