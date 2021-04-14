@@ -422,12 +422,30 @@ function displayMain(curPage) {
                 button.style.fontFamily = "Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif";
                 button.style.borderRadius = "5px";
                 button.style.margin = "10px";
-                button.style.boxShadow="none";
-                button.style.textTransform="uppercase";
+                button.style.boxShadow = "none";
+                button.style.textTransform = "uppercase";
+                button.style.outline = "none";
                 jslinks.append(button);
             });
-            jslinks.childNodes[0].style.float="left";
-            jslinks.childNodes[1].style.float="right";
+            jslinks.childNodes[0].style.float = "left";
+            jslinks.childNodes[1].style.float = "right";
+            jslinks.childNodes[0].onmouseover = function () {
+                jslinks.childNodes[0].style.textShadow = "2px 2px 5px #ff00A6";
+                jslinks.childNodes[0].style.boxShadow = "0 0 8px #ff00A6";
+            }
+            jslinks.childNodes[1].onmouseover = function () {
+                jslinks.childNodes[1].style.textShadow = "2px 2px 5px #ff00A6";
+                jslinks.childNodes[1].style.boxShadow = "0 0 8px #ff00A6";
+            }
+
+            jslinks.childNodes[0].onmouseout = function () {
+                jslinks.childNodes[0].style.textShadow = "none";
+                jslinks.childNodes[0].style.boxShadow = "none";
+            }
+            jslinks.childNodes[1].onmouseout = function () {
+                jslinks.childNodes[1].style.textShadow = "none";
+                jslinks.childNodes[1].style.boxShadow = "none";
+            }
         }
         else {
             jslinks.childNodes[0].style.display = "block";

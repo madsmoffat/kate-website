@@ -6,37 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./kate-website.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.fitText( document.getElementById("text-box") );
+      </script>
 </head>
 
 <body>
     <section class="title-page" id="title-page">
+        <img class="title-img" id="title-img" src="photos/title-page.png">
         <div class="title-text" id="title-text">
-            <p>THE INEXHAUSTABLE VARIETY OF LIFE</p>
+            <p class="t-text" id="t-text">THE INEXHAUSTABLE VARIETY OF LIFE</p>
+        </div>
+        <div class="title-links" id="title-links">
             <button class="disclaimer-btn-t" id="disclaimer-btn-t" type="button">
                 Enter
             </button>
         </div>
+
     </section>
     <section class="disclaimer" id="disclaimer">
-        <section class="disclaimer-text" id="disclaimer-text">
-            <p>These places and choices are real: I have explored them for years through my nightmares. This environment
-                allows you to explore as well. </p>
-            <p>You are in control. If at any time the nightmare becomes too intense, you can always click the Exit
-                button. Are you brave enough to enter the dream?</p>
-            <div class="disclaimer-links" id="disclaimer-links">
+        <img class="disclaimer-img" id="disclaimer-img" src="photos/disclaimer-page.png">
+        <section class="disclaimer-text" id="disclaimer-text">These places and choices are real: I have explored them
+            for years through my nightmares. This environment allows you to explore as well. You are in control. If at
+            any time the nightmare becomes too intense, you can always click the Exit button. Are you brave enough to
+            enter the dream?</section>
 
-                <button class="title-btn-d" id="title-btn-d" type="button">
-                    Go to title page
-                </button>
-                <button class="main-btn-d" id="main-btn-d" type="button">
-                    Enter
-                </button>
-                <button class="credits-btn-d" id="credits-btn-d" type="button">
-                    Exit
-                </button>
+        <div class="disclaimer-links" id="disclaimer-links">
+            <button class="title-btn-d" id="title-btn-d" type="button">
+                Go to title page
+            </button>
+            <button class="main-btn-d" id="main-btn-d" type="button">
+                Enter
+            </button>
+            <button class="credits-btn-d" id="credits-btn-d" type="button">
+                Exit
+            </button>
+        </div>
 
-            </div>
-        </section>
     </section>
     <section class="main-body" id="main-body">
         <div class="text-links" id="text-links">
@@ -45,8 +52,9 @@
                 <button class="credits-btn-m" id="credits-btn-m" type="button">
                     Exit
                 </button>
-                <div class="js-links" id="js-links"></div>
             </div>
+            <div class="js-links" id="js-links"></div>
+
         </div>
         <div class="image-box" id="image-box">
             <img class="my-image" id="my-image" width="32%" height="80%" src="">
@@ -55,22 +63,41 @@
     </section>
     <section class="credits" id="credits">
         <section class="credits-text" id="credits-text">
-            <div class="kate-text" id="kate-text">kate short bio and link to website here</div>
-            <div class="mads-text" id="mads-text">mads short bio and link to portfolio here</div>
-
-            <div class="credits-links" id="credits-links">
-                <button class="main-btn-c" id="main-btn-c" type="button">
-                    Start Over
-                </button>
-                <button class="title-btn-c" id="title-btn-c" type="button">
-                    Go to title page
-                </button>
-            </div>
+            <section class="kate-bio" id="kate-bio">
+                <img class="kate-img" id="kate-img" src="photos/Kate.jpg">
+                <div class="kate-text" id="kate-text"> Kate Wilhite is a Salt Lake City, UT-based watercolor artist and
+                    illustrator. She focuses her work on duality and ambiguity, using light and color to explore queer
+                    identity. Kate graduated with a BFA in Studio Art from the University of Utah. She can be found at:
+                </div>
+            </section>
+            <section class="kate-links" id="kate-links">
+                <p><a href="url">katewilhite.com </a></p>
+                <p.i><a href="url">Instagram.com/kate.wilhite </a></p>
+                <p><a href="url">katewilhiteart@gmail.com </a></p>
+            </section>
+            <section class="mads-bio" id="mads-bio">
+                <img class="mads-img" id="mads-img" src="photos/Mads.jpg">
+                <div class="mads-text" id="mads-text">Mads Moffat is an ameture/ self taught wed developer located in
+                    Salt Lake City, UT. They are interested in how digital spaces can be formated to meet the needs of physical
+                    artist. They can be reached at: </div>
+            </section>
+            <section class="mads-links" id="mads-links"></section>
+            <p><a href="url">madsmoffat@gmail.com </a></p>
         </section>
+        <div class="credits-links" id="credits-links">
+            <button class="main-btn-c" id="main-btn-c" type="button">
+                Start Over
+            </button>
+            <button class="title-btn-c" id="title-btn-c" type="button">
+                Go to title page
+            </button>
+        </div>
+    </section>
     </section>
 </body>
 <footer>
     <script src="./kate-website.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </footer>
 
 </html>
