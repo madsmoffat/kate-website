@@ -2,22 +2,22 @@ var pages = [
     {
         text: "You find yourself at a gas station in a barren desert. You’re alone and you don’t know how you got here… Where were you before this? Is it morning or evening? You see a singular building, impossibly tall against the flat horizon. To your right is a forest. You’re intrigued but nervous. You can either go to the building or into the forest. Where do you choose to go?",
         links: [{ index: 2, text: "Building" }, { index: 10, text: "Forest" }],
-        src: "../kate-website/assets/photos/1.png"
+        src: "../assets/photos/1.png"
     },
     {
         text: "As you enter the building, you feel a sense of dread. Your stomach begins to turn over with anxiety. Something tells you that you need to do everything within your power to remain unseen by the people in charge of this place. There are two doors in front of you. One leads to the elevator, one to the stairs. Which door do you take?",
         links: [{ index: 6, text: "Elevator" }, { index: 3, text: "Stairs" }],
-        src: "../kate-website/assets/photos/2.png"
+        src: "../assets/photos/2.png"
     },
     {
         text: "The stairs seem to go on for miles. Your legs begin to ache as you wind upward into the building. You freeze as you hear two voices above you on the stairs, but they disappear as a door closes. You come to a landing. You can continue climbing towards the top or you can exit the stairs on this floor. Which do you choose?",
         links: [{ index: 4, text: "Landing" }, { index: 5, text: "Stairs" }],
-        src: "../kate-website/assets/photos/3.png"
+        src: "../assets/photos/3.png"
     },
     {
         text: "You find yourself on a landing above a beautiful stained glass window. Sunlight bathes you in colored light, and you begin to look around until something stops you. Your blood turns cold as you hear a voice coming up the stairs behind you: the voice of the man you are most afraid of. Your breathing increases and your flight response kicks in. You need to escape. There are two doors on this floor. You can hide in the room on the left or the one on the right. Which one do you choose?",
         links: [{ index: 24, text: "Hide in the left" }, { index: 9, text: "Hide in the right" }],
-        src: "../kate-website/assets/photos/4.png"
+        src: "../assets/photos/4.png"
     },
     {
         text: "You are determined to climb to the top of this building, but as the minutes pass, your aching body begins to slow down. With each step, you feel pressure spread from your foot to your ankle, up through your calf, jolting pain through your knee. Your hamstrings burn and your back aches. You count steps to distract yourself until finally the stairs end. You’ve reached the top. Resting for a moment, you assess your options. You can either go left, through a large, heavy set of double doors, or right, through a concrete hallway. Which way do you go?",
