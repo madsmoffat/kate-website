@@ -1,8 +1,8 @@
 * {
     background-color: black;
     box-sizing: border-box;
-    width: 100vw;
-    height:100vh;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 body {
     background-color: black;
@@ -17,19 +17,19 @@ body {
     align-self: center;
 }
 .title-img {
-    width: 98vw;
-    height: 95vh;
+    width: 98.5vw;
+    height: 98vh;
     filter: contrast(60%);
 }
 .title-text {
- background: none;
+    background: none;
     color: ivory;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 80px;
+    font-size: 6.5vw;
     position: absolute;
     left: 50px;
-    bottom: 150px;
+    bottom: 100px;
 }
 .t-text {
     background: transparent;
@@ -50,10 +50,11 @@ body {
     text-transform: uppercase;
     box-shadow: none;
     outline: none;
-
+    width: fit-content;
+    height: fit-content;
     position: absolute;
-    right: 50px;
-    bottom: 50px;
+    right: 75px;
+    bottom: 75px;
 }
 .disclaimer-btn-t:hover {
     text-shadow: 5px 5px 8px #ff00A6;
@@ -65,7 +66,7 @@ body {
     width: 100vw;
 }
 .disclaimer-img {
-    width: 98vw;
+    width: 98.5vw;
     height: 98vh;
     filter: contrast(40%)
 }
@@ -98,6 +99,8 @@ body {
     text-transform: uppercase;
     box-shadow: none;
     outline: none;
+    width: fit-content;
+    height: fit-content;
 }
 .title-btn-d:hover {
     text-shadow: 4px 4px 7px #ff00A6;
@@ -114,6 +117,8 @@ body {
     text-transform: uppercase;
     box-shadow: none;
     outline: none;
+    width: fit-content;
+    height: fit-content;
 }
 .main-btn-d:hover {
     text-shadow: 4px 4px 7px #ff00A6;
@@ -130,6 +135,8 @@ body {
     text-transform: uppercase;
     box-shadow: none;
     outline: none;
+    width: fit-content;
+    height: fit-content;
 }
 .credits-btn-d:hover {
     text-shadow: 4px 4px 7px #ff00A6;
@@ -137,15 +144,15 @@ body {
 }
 .main-body {
     background-color:black;
-   height:80%;
-   width:100%;
+   height:100vh;
+   width:100vw;
    position: relative;
    display: flex;
 
 }
 .text-links {
-    width: 64%;
-    height:100%;
+    width: 59vw;
+    height:100vh;
     float: left;
     position: relative;
     margin: 25px;
@@ -161,36 +168,38 @@ body {
     text-align: center;
     font-size: auto;
     position: relative;
-   font-size: 3.315649867374005vh;
+   font-size: 1.8vw;
 }
 .main-links {
     background-color: none;
     width: 100%;
     position: absolute;
-    bottom: 0;
-    left: 25px;
+    bottom: 75px;
+    left: 0px;
 }
 .credits-btn-m {
     color: #ff00A6;
     background-color: none;
     border-color: #ff00A6;
     float: left;
-    border-radius: 5px;
-    font-size: 25px;
+    border-radius: 6px;
+    font-size: 1.8vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
     outline: none;
+    width: fit-content;
+    height: fit-content;
 }
 .credits-btn-m:hover {
-    text-shadow: 2px 2px 5px #ff00A6;
-    box-shadow: 0 0 8px #ff00A6; 
+    text-shadow: 3px 3px 7px #ff00A6;
+    box-shadow: 0 0 9px #ff00A6; 
 }
 .js-links {
     background-color: none;
     position: absolute;
-    bottom: 0;
-    right: 25px;
+    bottom: 75px;
+    right: 0px;
 }
 .image-box {
   height: 100%;
@@ -207,7 +216,7 @@ body {
 .credits-text {
     color: ivory;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     text-transform: uppercase;
 }
 .kate-bio{
@@ -229,7 +238,7 @@ body {
     position: relative;
     float: right;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     text-transform: uppercase;
 }
 .kate-links {
@@ -252,7 +261,7 @@ body {
     position: relative;
     float: right;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     text-transform: uppercase;
 }
 a:link {
@@ -265,9 +274,10 @@ a:link:hover {
 }
 .credits-links {
     background-color: black;
-    padding: 25px;
+    padding: 50px;
     position: relative;
     float: right;
+    bottom: 50px;
 }
 
 .main-btn-c {
@@ -275,10 +285,12 @@ a:link:hover {
     background-color: none;
     border-color: #ff00A6;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 1.8vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
+    width: fit-content;
+    height: fit-content;
 
 }
 .main-btn-c:hover {
@@ -290,12 +302,15 @@ a:link:hover {
     background-color: none;
     border-color: #ff00A6;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 1.8vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
+    width: fit-content;
+    height: fit-content;
 }
 .title-btn-c:hover {
     text-shadow: 2px 2px 5px #ff00A6;
     box-shadow: 0 0 8px #ff00A6; 
 }
+
