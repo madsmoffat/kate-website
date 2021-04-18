@@ -330,11 +330,7 @@ a:link:hover {
         right: 1.6vw;
     }
 }
-@media  screen and (max-width: 540px) {
-    body {
-        display: none;
-    }
-}
+
 @media screen and (max-width: 854) {
     .title-text {
         font-size: 5vw;
@@ -363,5 +359,11 @@ a:link:hover {
     }
     .credits-btn-d {
         font-size: 2vw;
+    }
+    
+}
+@media  screen and (max-width: 540px) {
+    body {
+        display: none;
     }
 }
