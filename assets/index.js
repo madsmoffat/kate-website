@@ -2,12 +2,12 @@ var pages = [
     {
         text: "You find yourself at a gas station in a barren desert. You’re alone and you don’t know how you got here… Where were you before this? Is it morning or evening? You see a singular building, impossibly tall against the flat horizon. To your right is a forest. You’re intrigued but nervous. You can either go to the building or into the forest. Where do you choose to go?",
         links: [{ index: 2, text: "Building" }, { index: 10, text: "Forest" }],
-        src: "https://github.com/maddiemoffat95/kate-website/blob/main/assets/photos/1.png"
+        src: "https://github.com/maddiemoffat95/kate-website/blob/main/assets/photos/1.png" // mark fix back
     },
     {
         text: "As you enter the building, you feel a sense of dread. Your stomach begins to turn over with anxiety. Something tells you that you need to do everything within your power to remain unseen by the people in charge of this place. There are two doors in front of you. One leads to the elevator, one to the stairs. Which door do you take?",
         links: [{ index: 6, text: "Elevator" }, { index: 3, text: "Stairs" }],
-        src: "../kate-website/assets/photos/2.png"
+        src: "../assets/photos/2.png" //mark fix back
     },
     {
         text: "The stairs seem to go on for miles. Your legs begin to ache as you wind upward into the building. You freeze as you hear two voices above you on the stairs, but they disappear as a door closes. You come to a landing. You can continue climbing towards the top or you can exit the stairs on this floor. Which do you choose?",
