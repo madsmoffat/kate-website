@@ -7,10 +7,6 @@
 body {
     background-color: black;
 }
-.landscape {
-    display: none;
-}
-
 .title-page {
     width: 100vw;
     height: 100vh;
@@ -335,23 +331,18 @@ a:link:hover {
     }
 }
 @media  screen and (max-width: 540px) {
-    .landscape {
-        display: block;
-        
-    }
-    .p {
-        color: white;
-        background: #ff00A6;
-        width: 100vw;
-        height: 100vh;
-        font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-        font-size: 6.5vw;
-        text-transform: uppercase;
-    }
     body {
         display: none;
     }
 
-
+@media screen and (max-width: 854) {
+    .title-text {
+        font-size: 5vw;
+    }
+    .disclaimer-btn-t {
+        font-size: 2.8vw;
+        right: 3.8vw;
+        bottom: 3.8vw;
+    }
 
 }
