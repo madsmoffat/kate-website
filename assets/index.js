@@ -150,7 +150,7 @@ var pages = [
         src: "https://youcontrolthedream.com/assets/photos/30.png"
     },
     {
-        text: "page You continue walking as the path takes a sharp decline. Identical houses with vinyl siding in various shades of gray emerge ahead of you. You’ve entered the suburbs. You feel claustrophobic--you can’t conform enough to fit in, and suburbanites aren’t kind to people who stand out. All of the houses seem the same, but like you, one stands out against the rest. You can go into the house or explore the suburbs. Where do you go?",
+        text: "You continue walking as the path takes a sharp decline. Identical houses with vinyl siding in various shades of gray emerge ahead of you. You’ve entered the suburbs. You feel claustrophobic--you can’t conform enough to fit in, and suburbanites aren’t kind to people who stand out. All of the houses seem the same, but like you, one stands out against the rest. You can go into the house or explore the suburbs. Where do you go?",
         links: [{ index: 34, text: "Into house" }, { index: 27, text: "Explore suburbs" }],
         src: "https://youcontrolthedream.com/assets/photos/31.png"
     },
