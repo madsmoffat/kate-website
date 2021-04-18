@@ -418,10 +418,9 @@ function displayMain(curPage) {
                 button.style.background = "none";
                 button.style.borderColor = "#ff00A6";
                 button.style.color = "#ff00A6";
-                button.style.fontSize = "27.6px";
+                button.style.fontSize = "1.8vw";
                 button.style.fontFamily = "Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif";
-                button.style.borderRadius = "5px";
-                button.style.margin = "10px";
+                button.style.borderRadius = "0.4vw";
                 button.style.boxShadow = "none";
                 button.style.textTransform = "uppercase";
                 button.style.outline = "none";
@@ -430,12 +429,12 @@ function displayMain(curPage) {
             jslinks.childNodes[0].style.float = "left";
             jslinks.childNodes[1].style.float = "right";
             jslinks.childNodes[0].onmouseover = function () {
-                jslinks.childNodes[0].style.textShadow = "2px 2px 5px #ff00A6";
-                jslinks.childNodes[0].style.boxShadow = "0 0 8px #ff00A6";
+                jslinks.childNodes[0].style.textShadow = "0.13vw 0.13vw 0.3vw #ff00A6";
+                jslinks.childNodes[0].style.boxShadow = "0 0 0.8vw #ff00A6";
             }
             jslinks.childNodes[1].onmouseover = function () {
-                jslinks.childNodes[1].style.textShadow = "2px 2px 5px #ff00A6";
-                jslinks.childNodes[1].style.boxShadow = "0 0 8px #ff00A6";
+                jslinks.childNodes[1].style.textShadow = "0.13vw 0.13vw 0.3vw #ff00A6";
+                jslinks.childNodes[1].style.boxShadow = "0 0 0.8vw #ff00A6";
             }
 
             jslinks.childNodes[0].onmouseout = function () {

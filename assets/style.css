@@ -7,6 +7,9 @@
 body {
     background-color: black;
 }
+.landscape {
+    display: none;
+}
 
 .title-page {
     width: 100vw;
@@ -28,8 +31,8 @@ body {
     text-transform: uppercase;
     font-size: 6.5vw;
     position: absolute;
-    left: 50px;
-    bottom: 100px;
+    margin-left: 3.2vw;
+    bottom: 6.5vw;
 }
 .t-text {
     background: transparent;
@@ -43,9 +46,9 @@ body {
     color: #ff00A6;
     background-color: transparent;
     border-color: #ff00A6;
-    border-width: 5px;
-    border-radius: 10px;
-    font-size: 50px;
+    border-width: .3vw;
+    border-radius: .6vw;
+    font-size: 3.2vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
@@ -53,12 +56,12 @@ body {
     width: fit-content;
     height: fit-content;
     position: absolute;
-    right: 75px;
-    bottom: 75px;
+    right: 4.8vw;
+    bottom: 4.8vw;
 }
 .disclaimer-btn-t:hover {
-    text-shadow: 5px 5px 8px #ff00A6;
-    box-shadow: 0 0 20px #ff00A6; 
+    text-shadow: 0.3vw 0.3vw 0.5vw #ff00A6;
+    box-shadow: 0 0 1.3vw #ff00A6; 
 }
 
 .disclaimer {
@@ -77,24 +80,24 @@ body {
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     position: absolute;
-    padding: 25px;
-    top: 25px
+    padding: 1.6vw;
+    top: 1.6vw;
    
 }
 .disclaimer-links {
     background: transparent;
     position: absolute;
-    bottom: 50px;
-    right: 50px;
+    bottom: 3vw;
+    right: 3vw;
     justify-content: space-around;
 }
 .title-btn-d {
     color: #ff00A6;
     background: transparent;
     border-color: #ff00A6;
-    border-radius: 7px;
-    border-width: 4px;
-    font-size: 40px;
+    border-radius: 0.5vw;
+    border-width: 0.3vw;
+    font-size: 2.6vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
@@ -103,16 +106,17 @@ body {
     height: fit-content;
 }
 .title-btn-d:hover {
-    text-shadow: 4px 4px 7px #ff00A6;
-    box-shadow: 0 0 15px #ff00A6;  
+    text-shadow: 0.2vw 0.2vw 0.4vw #ff00A6;
+    box-shadow: 0 0 0.9vw #ff00A6;
 }
-.main-btn-d{
+
+.main-btn-d {
     color: #ff00A6;
     background: transparent;
     border-color: #ff00A6;
-    border-radius: 7px;
-    border-width: 4px;
-    font-size: 40px;
+    border-radius: 0.5vw;
+    border-width: 0.3vw;
+    font-size: 2.6vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
@@ -121,16 +125,16 @@ body {
     height: fit-content;
 }
 .main-btn-d:hover {
-    text-shadow: 4px 4px 7px #ff00A6;
-    box-shadow: 0 0 15px #ff00A6;
+    text-shadow: 0.2vw 0.2vw 0.4vw #ff00A6;
+    box-shadow: 0 0 0.9vw #ff00A6;
 }
 .credits-btn-d {
     color: #ff00A6;
     background: transparent;
     border-color: #ff00A6;
-    border-radius: 7px;
-    border-width: 4px;
-    font-size: 40px;
+    border-radius: 0.5vw;
+    border-width: 0.3vw;
+    font-size: 2.6vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
@@ -139,9 +143,10 @@ body {
     height: fit-content;
 }
 .credits-btn-d:hover {
-    text-shadow: 4px 4px 7px #ff00A6;
-    box-shadow: 0 0 15px #ff00A6;
+    text-shadow: 0.2vw 0.2vw 0.4vw #ff00A6;
+    box-shadow: 0 0 0.9vw #ff00A6;
 }
+
 .main-body {
     background-color:black;
    height:100vh;
@@ -155,8 +160,8 @@ body {
     height:100vh;
     float: left;
     position: relative;
-    margin: 25px;
-    justify-content: space-around;  
+    margin: 1.6vw;
+    justify-content: space-between;  
 }
 .text-box{
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
@@ -168,22 +173,22 @@ body {
     text-align: center;
     font-size: auto;
     position: relative;
-   font-size: 1.8vw;
+   font-size: 1.5vw;
 }
 .main-links {
     background-color: none;
     width: 100%;
     position: absolute;
-    bottom: 75px;
-    left: 0px;
+    bottom: 4.8vw;
 }
 .credits-btn-m {
     color: #ff00A6;
     background-color: none;
     border-color: #ff00A6;
     float: left;
-    border-radius: 6px;
-    font-size: 1.8vw;
+    border-radius: 0.4vw;
+    border-width: 0.2vw;
+    font-size: 1.9vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     box-shadow: none;
@@ -192,14 +197,15 @@ body {
     height: fit-content;
 }
 .credits-btn-m:hover {
-    text-shadow: 3px 3px 7px #ff00A6;
-    box-shadow: 0 0 9px #ff00A6; 
+    text-shadow: 0.2vw 0.2vw 0.4vw #ff00A6;
+    box-shadow: 0 0 0.5vw #ff00A6; 
 }
 .js-links {
     background-color: none;
     position: absolute;
-    bottom: 75px;
-    right: 0px;
+    bottom: 4.8vw;
+    justify-content: space-between;
+    right: 0vw;
 }
 .image-box {
   height: 100vw;
@@ -210,13 +216,13 @@ body {
     background-color: black;
     width: 100vw;
     height: 100vh;
-    padding: 15px
+    padding: 1vw;
     
 }
 .credits-text {
     color: ivory;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5.96vh;
+    font-size: 2vw;
     text-transform: uppercase;
 }
 .kate-bio{
@@ -224,21 +230,21 @@ body {
 }
 
 .kate-img {
-    height: 225px;
-    width: 150px;
+    height: 14.6484375vw;
+    width: 9.765625vw;
     position: relative;
 }
 
 .kate-text {
     background-color:black;
     color: ivory;
-    right: 25px;
-    top: 25px;
+    right: 1.6vw;
+    top: 1.6vw;
     width: 80vw;
     position: relative;
     float: right;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5.96vh;
+    font-size: 2.5vw;
     text-transform: uppercase;
 }
 .kate-links {
@@ -248,20 +254,21 @@ body {
     justify-content: space-between;
 }
 .mads-img {
-    height: 225px;
-    width: 150px;
+    height: 14.6484375vw;
+    width: 9.765625vw;
     position: relative;
 
 }
 .mads-text {
     background-color:black;
     color: ivory;
+    right: 1.6vw;
+    top: 1.6vw;
     width: 80vw;
-    right: 25px;
     position: relative;
     float: right;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5.96vh;
+    font-size: 2.5vw;
     text-transform: uppercase;
 }
 a:link {
@@ -270,21 +277,21 @@ a:link {
     text-decoration: none;
 }
 a:link:hover {
-    text-shadow: 2px 2px 5px #ff00A6;
+    text-shadow: 0.1vw 0.1vw 0.3vw #ff00A6;
 }
 .credits-links {
     background-color: black;
-    padding: 50px;
     position: relative;
     float: right;
-    bottom: 50px;
+    bottom: 13vh;
+    font-size: 3vw;
 }
 
 .main-btn-c {
     color: #ff00A6;
     background-color: none;
     border-color: #ff00A6;
-    border-radius: 5px;
+    border-radius: 0.3vw;
     font-size: 1.8vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
@@ -294,14 +301,14 @@ a:link:hover {
 
 }
 .main-btn-c:hover {
-    text-shadow: 2px 2px 5px #ff00A6;
-    box-shadow: 0 0 8px #ff00A6; 
+    text-shadow: 0.1vw 0.1vw 0.3vw #ff00A6;
+    box-shadow: 0 0 0.5vw #ff00A6; 
 }
 .title-btn-c {
     color: #ff00A6;
     background-color: none;
     border-color: #ff00A6;
-    border-radius: 5px;
+    border-radius: 0.3vw;
     font-size: 1.8vw;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
@@ -310,16 +317,41 @@ a:link:hover {
     height: fit-content;
 }
 .title-btn-c:hover {
-    text-shadow: 2px 2px 5px #ff00A6;
-    box-shadow: 0 0 8px #ff00A6; 
+    text-shadow: 0.1vw 0.1vw 0.3vw #ff00A6;
+    box-shadow: 0 0 0.5vw #ff00A6; 
 }
-
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1024px) {
     .text-links {
-        width: 59vw;
+        width: 55vw;
         height:100vh;
     }
-    .credits-text {
-        font-size: 25px;
+    .main-btn-c {
+        bottom: 1.6vw;
+        right: 1.6vw;
     }
+    .title-btn-c {
+        bottom: 1.6vw;
+        right: 1.6vw;
+    }
+}
+@media  screen and (max-width: 540px) {
+    .landscape {
+        display: block;
+        
+    }
+    .p {
+        color: white;
+        background: #ff00A6;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+        font-size: 6.5vw;
+        text-transform: uppercase;
+    }
+    body {
+        display: none;
+    }
+
+
+
 }
