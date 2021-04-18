@@ -337,10 +337,11 @@ a:link:hover {
         font-size: 5vw;
     }
     .disclaimer-btn-t {
-        font-size: 2vw;
+        font-size: 1.8vw;
         width: fit-content;
         height:fit-content;
-        left: 4.8vw;
+        right: 3.8vw;
+        bottom: 3.8vw;
     }
     .text-box {
         font-size: 1.5vw;
