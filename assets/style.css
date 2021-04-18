@@ -352,6 +352,9 @@ a:link:hover {
         bottom: 0px;
         right: 0px;
     }
+    .disclaimer-text {
+        font-size: 3.5vw;
+    }
     .title-btn-d {
         font-size: 2vw;
     }
