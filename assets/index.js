@@ -405,8 +405,9 @@ function displayMain(curPage) {
     document.getElementById("main-body").style.display = "block";
     document.getElementById("credits").style.display = "none";
 
-    textbox.innerHTML = "<p>" + curPage.text + "</p>";
     image.src = curPage.src;
+    textbox.innerHTML = "<p>" + curPage.text + "</p>";
+   
 
     var delayInMilliseconds = 5000;
 

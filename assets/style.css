@@ -341,7 +341,23 @@ a:link:hover {
     }
     .disclaimer-btn-t {
         font-size: 2vw;
-        right: 3vw;
-        bottom: 3vw;
+        right: 1vw;
+        bottom: 1vw;
+    }
+    .text-box {
+        font-size: 1vw;
+    }
+    .disclaimer-links {
+        bottom: 1vw;
+        right: 1vw;
+    }
+    .title-btn-d {
+        font-size: 2vw;
+    }
+    .main-btn-d {
+        font-size: 2vw;
+    }
+    .credits-btn-d {
+        font-size: 2vw;
     }
 }
