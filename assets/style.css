@@ -334,7 +334,7 @@ a:link:hover {
     body {
         display: none;
     }
-
+}
 @media screen and (max-width: 854) {
     .title-text {
         font-size: 5vw;
@@ -344,5 +344,4 @@ a:link:hover {
         right: 3.8vw;
         bottom: 3.8vw;
     }
-
 }
