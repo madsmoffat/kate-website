@@ -338,8 +338,8 @@ a:link:hover {
     }
     .disclaimer-btn-t {
         font-size: 2vw;
-        
-        padding: 0.08vw 0.5vw;
+        width: fit-content;
+        height: fit-content;
     }
     .text-box {
         font-size: 1.5vw;
