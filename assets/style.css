@@ -341,6 +341,7 @@ a:link:hover {
         right: 3.8vw;
         bottom: 3.8vw;
         padding:  0.065vw;
+        width: 50px;
     }
     .text-box {
         font-size: 1.5vw;
